@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Olá, mundo!</title>
+  </head>
+
+  <body>
+  <div class="jumbotron text-center">
+<h1 class="display-3">Cocina del Jef</h1>
+    <p>Delivery de comida brasileira em São Paulo</p>
+    <p>Para imprimir nossas receitas tecle <kbd>Ctrl+P</kbd></p>
+    <mark>Peça pelo app</mark>
+  </div>
+  <nav>
+    <ul class="nav nav-tabs">
+
+      <li class="nav-item">
+
+      <a class="nav-link active" href="#">Home</a>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="#">Produtos</a>
+
+      </li>
+
+      <li class="nav-item">
+
+      <a class=”nav-link” href=”#”>Serviços</a>
+
+      </li>
+
+      <li class=”nav-item”>
+
+           <a class=”nav-link disabled” href=”#”>Disabled</a>
+
+        </li>
+      </ul>
+  </nav>
+  <div class="conteiner">
+    <div class="row">
+  <div class="col-sm-4">
+    <h3>Recomendação</h3>
+    <img src="https://assets.unileversolutions.com/recipes-v2/177573.jpg?imwidth=900" width=180px heigth=200px class=".img-thumbnail">
+    <p>Nome do prato</p>
+    <p>Texto descrevendo os itens do prato, acompanhamento, bebida,…</p>
+  </div>
+
+  <div class="col-sm-4">
+    <h3>Recomendação</h3>
+    <img src="https://assets.unileversolutions.com/recipes-v2/177601.jpg" heigth=200px width=180px class=".img-thumbnail">
+    <p>Nome do prato</p>
+    <p>Texto descrevendo os itens do prato, acompanhamento, bebida,…</p>
+  </div>
+
+  <div class="col-sm-4">
+    <h3>Recomendação</h3>
+    <img src="https://assets.unileversolutions.com/recipes-v2/232234.jpg" height=200px width=190px class=".img-thumbnail">
+<p>Nome do prato</p>
+<p>Texto descrevendo os itens do prato, acompanhamento, bebida,…</p>
+  </div>
+  <div>
+  <table class="table table-hover thead-light">
+<thead>
+
+    <tr>
+     <th>Prato</th>
+     <th>Complemento</th>
+     <th>Quantidade de Calorias</th>
+    </tr>
+
+    </thead>
+    <tbody>
+    <tr>
+     <td>Strogonoff de Carne</td>
+     <td>Proteínas</td>
+     <td>Carboidratos</td>
+    </tr>
+
+      <tr>
+       <td>Filé à Parmegiana</td>
+       <td>Proteínas</td>
+       <td>Carboidratos</td>
+      </tr>
+
+   <tr>
+           <td>Arroz de Carreteiro Cremoso</td>
+           <td>Proteínas</td>
+           <td>Carboidratos</td>
+       </tr>
+       </tbody>
+  </table>
+</div>
+<hr>
+<div>
+  <h3>Lista:</h3>
+  <ul class="list-group">
+
+    <li class="list-group-item">Prato 1</li>
+
+    <li class="list-group-item-action">Prato 2 (escolha do dia)</li>
+
+    <li class="list-group-item">Prato 3</li>
+
+    </ul>
+</div>
+<hr><hr>
+<h3>Formulário</h3>
+<form action="envio.php" class="was-validated">
+
+  <div class="form-group">
+
+  <label for="cliente">Nome:</label>
+
+  <input type="text" class="form-control" id=″cliente″ name=″cliente″>
+
+  <div class=″valid-feedback″>ok</div>
+
+  <div class="invalid-feedback">Ops! Verifique seu nome</div>
+
+   </div>
+
+  <div class="form-group">
+
+  <label for="email">Telefone:</label>
+
+  <input type="email" class="form-control" id=″email″ name=″email″>
+
+  <div class="valid-feedback">Ok</div>
+
+  <div class="invalid-feedback">Ops! Verifique seu e-mail</div>
+
+  </div>
+
+  <div class="form-group">
+
+  <textarea class="form-control" name="pedido"></textarea>
+
+  </div>
+
+  <button type="submit" class="btn btn-primary">Enviar</button>
+
+</form>
+</div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
